@@ -25,6 +25,7 @@ import Questionnaire from './src/Screens/Questionnaire';
 import AnimatedHeader from './src/Screens/AnimatedHeader';
 import Cat from './src/Screens/Cat';
 import HorizontalScroll from './src/Screens/HorizontalScroll';
+import PhotoGrid from './src/Screens/PhotoGrid';
 
 export const screensList = {
   StaggerForm,
@@ -38,6 +39,7 @@ export const screensList = {
   AnimatedHeader,
   Cat,
   HorizontalScroll,
+  PhotoGrid,
 };
 
 const TabNavigator = createStackNavigator(
