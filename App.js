@@ -26,8 +26,10 @@ import AnimatedHeader from './src/Screens/AnimatedHeader';
 import Cat from './src/Screens/Cat';
 import HorizontalScroll from './src/Screens/HorizontalScroll';
 import PhotoGrid from './src/Screens/PhotoGrid';
+import AppleBadtime from './src/Screens/AppleBedtime';
 
 export const screensList = {
+  AppleBadtime,
   StaggerForm,
   Questionnaire,
   ProgressBar,
