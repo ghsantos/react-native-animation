@@ -27,8 +27,10 @@ import Cat from './src/Screens/Cat';
 import HorizontalScroll from './src/Screens/HorizontalScroll';
 import PhotoGrid from './src/Screens/PhotoGrid';
 import AppleBadtime from './src/Screens/AppleBedtime';
+import ColorPicker from './src/Screens/ColorPicker';
 
 export const screensList = {
+  ColorPicker,
   AppleBadtime,
   StaggerForm,
   Questionnaire,
