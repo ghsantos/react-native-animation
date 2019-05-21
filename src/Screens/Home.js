@@ -10,7 +10,7 @@ import {
   View,
 } from 'react-native';
 
-import { screensList } from '../../App';
+import screensList from '../../screensList';
 
 const ListItem = ({ name, onPress }) => (
   <TouchableOpacity onPress={onPress} style={styles.item}>
