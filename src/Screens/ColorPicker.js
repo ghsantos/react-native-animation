@@ -86,6 +86,7 @@ export default class ColorPicker extends Component {
         { translateX: moveInterpolate },
         { scale: this.state.buttonAnimation },
       ],
+      opacity: this.state.buttonAnimation,
     };
 
     console.log(buttonStyle);
