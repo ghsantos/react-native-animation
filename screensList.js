@@ -20,8 +20,10 @@ import PhotoGrid from './src/Screens/PhotoGrid';
 import AppleBadtime from './src/Screens/AppleBedtime';
 import ColorPicker from './src/Screens/ColorPicker';
 import CustomSlider from './src/Screens/CustomSlider';
+import ImageCache from './src/Screens/ImageCache';
 
 const screensList = {
+  ImageCache,
   CustomSlider,
   ColorPicker,
   AppleBadtime,
