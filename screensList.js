@@ -19,8 +19,10 @@ import HorizontalScroll from './src/Screens/HorizontalScroll';
 import PhotoGrid from './src/Screens/PhotoGrid';
 import AppleBadtime from './src/Screens/AppleBedtime';
 import ColorPicker from './src/Screens/ColorPicker';
+import CustomSlider from './src/Screens/CustomSlider';
 
 const screensList = {
+  CustomSlider,
   ColorPicker,
   AppleBadtime,
   StaggerForm,
